@@ -1,0 +1,661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+
+<title>关于我</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="colors/blue/blue.css"/>
+<link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
+<link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+</head>
+<body>
+<script>   
+   function a(){
+   
+     var audio = document.getElementById('music'); 
+    
+	$("#on").click(function(){
+		music.pause();
+		$("#on").hide(200);
+		$("#off").css({"display":"inline-block"},300);
+	});	
+	$("#off").click(function(){
+		music.play();
+		$("#off").hide(200);
+		$("#on").css({"display":"inline-block"},300);
+	});	
+   }
+</script>
+<link rel="stylesheet" href="css/music.css" type="text/css" />
+  <div id="header">
+      <div class="gohome radius20"><a href="#"><img src="images/icons/home.png" alt="" title="" /></a></div>
+		
+     <audio src="http://7xjq4e.com1.z0.glb.clouddn.com/music/saveme.mp3" autoplay="autoplay" loop preload="auto"  preload id="music" hidden>
+   </audio>
+    <div id="a"  class="mPower"><span id="on" onclick="a();" title="点击暂停"></span><span id="off" onclick="a();" title="点击播放"></span></div>
+	 
+      <div class="gomenu radius20"><a href="#" onclick="swiperParent.swipeTo(10);"><img src="images/icons/contact.png" alt="" title="" /></a></div>
+  </div>
+  <div class="swiper-container swiper-parent">
+    <div class="swiper-wrapper">
+    
+<!--Menu page-->
+      <div class="swiper-slide sliderbg_menu">
+          <div class="swiper-container swiper-nested">
+                   <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                  <div class="slide-inner">
+                                        <div class="logo"><a href="#"><img src="colors/blue/images/logo.png" alt="" title="" border="0" /></a></div>
+                                        <div class="menu">
+                                        <ul>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(1);"><img src="images/icons/about.png" alt="" title="" /><span>关于本人</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(2);"><img src="images/icons/tools.png" alt="" title="" /><span>能力描述</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(3);"><img src="images/icons/blog.png" alt="" title="" /><span>求职意向</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(5);"><img src="images/icons/docs.png" alt="" title="" /><span>作品列表</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(6);"><img src="images/icons/photos.png" alt="" title="" /><span>作品相册</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(7);"><img src="images/icons/videos.png" alt="" title="" /><span>作品视频</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(8);"><img src="images/icons/clients.png" alt="" title="" /><span>案例展示</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(9);"><img src="images/icons/twitter.png" alt="" title="" /><span>关注本人</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(10);"><img src="images/icons/contact.png" alt="" title="" /><span>联系本人</span></a></li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                        </div>
+                                 </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbar"></div>
+          </div> 
+      </div>
+      
+<!--Page 1 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested1">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">关于本人</h3>
+                                        <div class="image_single radius4"><img src="images/page_photo.jpg" alt="" title="" border="0" /></div>
+                                        <div class="image_caption blue blue_borderbottom radius4">本人简介</div>
+                                        <h3>尊敬的来客</h3>
+                                        <blockquote>您好！欢迎进入我的个人简介网站，想知道更多，请耐心往下看<^_^></span></blockquote>
+                                        
+                                        
+                                        <h2>本人描述</h2>
+        
+                                        <div class="toogle_wrap radius8">
+                                            <div class="trigger"><a href="#">自我介绍</a></div>
+                                
+                                            <div class="toggle_container">
+                                            <p>
+                                        我叫郭新春，是2015年毕业于武汉工商，学历本科，在校期间主修计算机科学与技术专业，掌握了一定的编程知识和操作技术，学习认真，工作负责，积极配合老师完成工作任务，得到同学和老师们的好评，并多次组织参加社会实践活动，在自己能力和素质上都有了进一步的提高，相信自己能够适应这个社会，为我们的社会多做贡献。
+                                            </p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="toogle_wrap radius8">
+                                            <div class="trigger"><a href="#">学术专攻</a></div>
+                                
+                                            <div class="toggle_container">
+                                            <ul class="listing_detailed">
+                                            <li>我是一名前端爱好者</li>
+                                            <li>有一定的开发设计经验</li>
+                                            <li>本科毕业，专业是计算机科学与技术</li>
+                                            </ul>
+                                            </div>
+                                        </div> 
+        
+                                        <h3><span class="tag">在校经历</span></h3>
+                                        
+                                        <ul id="tabsmenu" class="tabsmenu">
+                                            <li class="active"><a href="#tab1">主修课程</a></li>
+                                            <li><a href="#tab2">社会实践</a></li>
+                                            <li><a href="#tab3">奖励情况</a></li>
+                                        </ul>
+                                        <div id="tab1" class="tabcontent">
+                                          
+                                            <p>
+                                       数据结构，操作系统，编译原理，数据库原理，计算机网络，软件工程，面向对象语言，数字逻辑，汇编语言，计算机组成原理，计算机系统结构等。
+                                            </p>
+                                        </div>
+                                        <div id="tab2" class="tabcontent">
+                                            
+                                            <ul class="listing">
+                                            <li>·2011年参加学校的青年志愿者协会</li>
+                                            <li>·2012年在达内集团实习一周</li>
+                                            <li>·2014年独立完成武汉高校学生报名信息管理系统设计</li>
+											<li>·有一定的项目实践经验</li>
+                                            </ul>
+                                        </div>
+                                
+                                        <div id="tab3" class="tabcontent">
+                                            
+                                            <blockquote>曾获得学校的三等奖学金，   
+											学士学位论文联合答辩二等奖
+									</blockquote>
+                                        </div>       
+                                        
+                                       
+                                        
+                                        <div class="clearfix"></div>
+      									<div class="scrolltop radius20"><a href="#" class="scrolltop1"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar1"></div>
+     </div>
+     </div>
+      
+<!--Page 2 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested2">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">能力描述</h3>
+                                        <blockquote>由于能力的有限，目前我主要做网站开发、网站设计、网站美化、特效处理及后台数据库的处理相关的工作 </blockquote>
+                                        
+                                        <h3>我所学的相关技能有：</h3>
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/services.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>网站开发</h4>
+                                              <p>熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，熟练手写符合 W3C 标准的结构和代码等</p>
+                                          </div>
+                                        </div>
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/layout.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>网站设计</h4>
+                                          <p>各种网站设计，微网站、微官网、电子商务、企业网站、博客门户网站、游戏门户网站、各种网站设计，电子商务、企业网站、博客门户网站、游戏门户网站的搭建</p>
+                                          </div>
+                                        </div>  
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/pencil.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>前端美化</h4>
+                                          <p>各类产品的图片美化处理及网站排版优化等</p>
+                                          </div>
+                                        </div>
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/code.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>特效处理</h4>
+                                          <p>熟练运用和处理javascript特效，能够运用 jQuery，实现日常需要的交互效果。</p>
+                                          </div>
+                                        </div>                                     
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/travel.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>后台操作</h4>
+                                          <p>熟练使用SQL、MySQL数据库，有一定 PHP 后端相关知识等</p>
+                                          </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        <div class="clearfix"></div>
+      <div class="scrolltop radius20"><a href="#" class="scrolltop2"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar2"></div>
+     </div>
+     </div>
+     
+<!--Page 3 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested3">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container blogheight">
+                                        <h3 class="page_title">求职意向</h3>
+                                                <div class="toogle_wrap_blog radius8">
+                                                   <div class="trigger_blog"><a href="#">分类</a></div>
+                                                        <div class="toggle_container_blog">
+                                                            <ul class="listing_detailed">
+                                                            <li><a href="#">网站建设</a></li>
+                                                            <li><a href="#">网站开发</a></li>
+                                                            <li><a href="#">网站美化</a></li>
+                                                            </ul>
+                                                        </div>
+                                                </div>
+                                                <ul class="posts">
+                                                <li class="post">
+                                                     <a href="#" class="post_more"></a>                     
+                                                     <div class="post_right_reveal">
+                                                     <h5><a href="#" onclick="swiperParent.swipeTo(4);">网站布局设计及制作，网站页面制作...</a></h5>
+                                                     </div>
+                                                     <div class="post_right_unreveal">
+                                                     发表 <a href="#">网站设计</a>
+                                                   
+                                                     <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">阅读更多</a>
+                                                     </div> 
+
+                                                    <div class="post_left">
+                                                        <span class="day">23</span>
+                                                        <span class="month">9月</span>
+                                                    </div>
+
+                                                </li>
+                                                <li class="post">
+                                                     <a href="#" class="post_more"></a>
+                                                     <div class="post_right_reveal">
+                                                     <h5><a href="#" onclick="swiperParent.swipeTo(4);">根据需求，对网站前端进行修改和优化，或者转响应式处理...</a></h5>
+                                                     </div>
+                                                     <div class="post_right_unreveal">
+                                                    发表 <a href="#">网站美化</a>
+                                                    
+                                                     <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">阅读更多</a>
+                                                     </div> 
+                                                   
+                                                    <div class="post_left">
+                                                        <span class="day">24</span>
+                                                        <span class="month">9月</span>
+                                                    </div>
+                                                </li>
+                                                <li class="post">
+                                                     <a href="#" class="post_more"></a>                     
+                                                     <div class="post_right_reveal">
+                                                     <h5><a href="#" onclick="swiperParent.swipeTo(4);">企业网站建设及相关功能开发...</a></h5>
+                                                     </div>
+                                                     <div class="post_right_unreveal">
+                                                     发表 <a href="#">网站开发</a>
+                                                     
+                                                     <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">阅读更多</a>
+                                                     </div> 
+
+                                                    <div class="post_left">
+                                                        <span class="day">25</span>
+                                                        <span class="month">9月</span>
+                                                    </div>
+
+                                                </li>
+                                                <li class="post">
+                                                     <a href="#" class="post_more"></a>
+                                                     <div class="post_right_reveal">
+                                                     <h4><a href="#" onclick="swiperParent.swipeTo(4);">对于网站建设项目，我对自己的技术非常的自信，希望能在贵公司得到真实的体现！...</a></h4>
+                                                     </div>
+                                                     <div class="post_right_unreveal">
+                                                     发表 <a href="#">分类</a>
+                                                     
+                                                     <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">阅读更多</a>
+                                                     </div> 
+                                                   
+                                                    <div class="post_left">
+                                                        <span class="day">26</span>
+                                                        <span class="month">9月</span>
+                                                    </div>
+                                                </li>
+                                                
+                                                </ul>
+                                                <div id="loadMore" class="radius8">加载更多...</div> 
+                                                <div id="showLess" class="radius8">没有更多了</div>
+ 										<div class="scrolltop radius20"><a href="#" class="scrolltop3"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar3"></div>
+     </div>
+     </div>
+     
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nestedsingle">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                              <div class="pages_container">
+                              <a class="backtoblog radius8" onclick="swiperParent.swipeTo(3);">返回求职意向</a>
+                              <h3 class="page_title">详细内容页</h3>
+                            <div class="image_single radius4"><img src="images/page_photo.jpg" alt="" title="" border="0" /></div>
+                            <div class="image_caption blue blue_borderbottom radius4">名词解释</div>
+                            <h3>网站建设</h3>
+                <p>网站设计要能充分吸引访问者的注意力，让访问者产生视觉上的愉悦感。因此在网页创作的时候就必须将网站的整体设计与网页设计的相关原理紧密结合起来。网站设计是将策划案中的内容、网站的主题模式，以及结合自己的认识通过艺术的手法表现出来；而网页制作通常就是将网页设计师所设计出来的设计稿，按照W3C规范用html（标准通用标记语言下的一个应用）将其制作成网页格式。</p>
+                              <h3>网站开发</h3>
+                <p>网站开发是制作一些专业性强的网站，比如说动态网页。ASP、PHP、JSP网页。而且网站开发一般是原创，网站制作可以用别人的模板。网站开发字面意思比制作有更深层次的进步，它不仅仅是网站美工和内容，它可能涉及到域名注册查询、网站的一些功能的开发。对于较大的组织和企业，网站开发团队可以由数以百计的人（web开发者）组成。规模较小的企业可能只需要一个永久的或收缩的网站管理员，或相关的工作职位，如一个平面设计师和/或信息系统技术人员的二次分配。Web开发可能是一个部门，而不是域指定的部门之间的协作努力。</p>
+                               <h3>网站优化</h3>
+                <p>网站优化是对网站进行程序、域名注册查询、内容、版块、布局、目标关键字等多方面的优化调整，也就是网站设计时适合搜索引擎检索，满足搜索引擎排名的指标，从而在搜索引擎检索中获得流量排名靠前，增强搜索引擎营销的效果，使网站相关的关键词能有好的排名。        
+				</p>
+								
+                                
+                              <div class="scrolltop radius20"><a href="#" class="scrolltopsingle"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                              </div>
+                              <!--End of page container-->
+                               </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbarsingle"></div>
+          </div>                            
+      </div>
+<!--Page 4 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested4">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">作品列表</h3>
+                                     
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image"><a rel="gallery-1" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/shouye.png" class="swipebox" title="Webdesign work"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/shouye.png" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4><a href="#" target="_blank">网络公司官网</a></h4>
+                                                 <p><strong>开发时间</strong>：2015年4月<br>
+							<strong>工作详情</strong>：框架设计及前端制作。</p>
+                                                
+                                                 </div>
+                                        </div>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image"><a rel="gallery-1" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/jinying.png" class="swipebox" title="Webdesign work"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/jinying.png" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>网站经营</h4>
+                                                 <p><strong>开发时间</strong>：2015年4月<br>
+							<strong>工作详情</strong>：页面设计及前端制作。</p>
+                                                 </div>
+                                        </div>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image"><a rel="gallery-1" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/xingyunshuzi.png" class="swipebox" title="Webdesign work"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/xingyunshuzi.png" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>化妆品商城</h4>
+                                                 <p><strong>开发时间</strong>：2015年6月<br>
+							<strong>工作详情</strong>：ecshop二次开发。</p>
+                                                 </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                      
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image_round"><a rel="gallery-1" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/yixi.png" class="swipebox" title="Webdesign work"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/yixi.png" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+												   <h4>衣服商城</h4>
+                                                 <p><strong>开发时间</strong>：2015年7月<br>
+							<strong>工作详情</strong>：ecshop二次开发。</
+                                                 </div>
+                                        </div>
+                                         <div class="portfolio_item radius8">
+                                             <div class="portfolio_image_round"><a rel="gallery-1" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/hong9.png" class="swipebox" title="Webdesign work"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/hong9.png" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>红酒商城</h4>
+                                                 <p><strong>开发时间</strong>：2014年09月<br>
+							<strong>工作详情</strong>：功能设计与开发。</p>
+                                                 </div>
+                                        </div>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image_round"><a rel="gallery-1" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/baoming.png" class="swipebox" title="Webdesign work"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/baoming.png" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>高校报名系统</h4>
+                                                 <p><strong>开发时间</strong>：2014年12月<br>
+							<strong>工作详情</strong>：独立完成。</p>
+                                                 </div>
+                                        </div>
+                                          </div> 
+                                         <div class="clearfix"></div>
+      									<div class="scrolltop radius20"><a href="#" class="scrolltop4"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                       </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar4"></div>
+     </div>
+     </div>
+     
+<!--Page 5 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested5">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">作品相册 1/3</h3>
+                                            <ul class="photo_gallery_13">
+                                            <li><a rel="gallery-3" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/shouye.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/shouye.png" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/jinying.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/jinying.png" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/fuwuqi.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/fuwuqi.png"/></a></li>
+                                            <li><a rel="gallery-3" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/shouji.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/shouji.png"/></a></li>
+                                            <li><a rel="gallery-3" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/weixin.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/weixin.png" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/baoming.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/works/baoming.png" alt="image"/></a></li>
+                                            </ul>
+                                        <h3>作品相册 1/2</h3>
+                                            <ul class="photo_gallery_12">    
+                                            <li><a rel="gallery-4" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/1.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/1.png" alt="image"/></a></li>
+                                            <li><a rel="gallery-4" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/2.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/2.png" alt="image"/></a></li>
+                                            <li><a rel="gallery-4" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/3.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/3.png" alt="image"/></a></li>
+                                            <li><a rel="gallery-4" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/4.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/4.png" alt="image"/></a></li>
+                                            
+                                            </ul>
+                                        <h3>作品相册 1/1</h3>    
+                                            <ul class="photo_gallery_11">
+                                            <li><a rel="gallery-5" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/5.png" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/jianli/5.png" alt="image"/></a></li>
+                                            </ul>
+                                        <h3 class="page_title">个人相册 1/3</h3>
+                                            <ul class="photo_gallery_13_round">
+                                            <li><a rel="gallery-6" href="http://7xjq4e.com1.z0.glb.clouddn.com/images/me.jpg" title="Photo title" class="swipebox"><img src="http://7xjq4e.com1.z0.glb.clouddn.com/images/me.jpg" alt="image"/></a></li>
+                                          
+                                            </ul>
+                                         <div class="clearfix"></div> 
+     									 <div class="scrolltop radius20"><a href="#" class="scrolltop5"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar5"></div>
+     </div>
+     </div>
+<!--Page 6 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested6">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">作品视频</h3>
+                                        <p>
+                                        视频介绍文字在这里视频介绍文字在这里视频介绍文字在这里视频介绍文字在这里
+                                        </p>
+                                            <div class="videocontainer radius6">
+                                            <iframe width="400" height="150" src="" frameborder="0"></iframe>
+                                            </div> 
+                                        <h3>其他视频</h3> 
+                                            <div class="videocontainer radius6">
+                                            <iframe width="400" height="150" src="" frameborder="0"></iframe>
+                                            </div>
+                                        
+      										<div class="scrolltop radius20"><a href="#" class="scrolltop6"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar4"></div>
+     </div>
+     </div>
+<!--Page 7 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested7">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">我做过的网站</h3>
+                                       <div class="client_row"> 
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/clients.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>网络公司</h4>
+                                          <p>为他们做过的一些前端的设计与开发。</p>
+                                          </div>
+                                        </div> 
+                                        <h3>案例分享:</h3>
+                                        <ul class="listing">
+                                        <li>铭科互联网络官网.</li>
+                                        <li>网站经营</li>
+                                        <li>服务器租用</li>
+										<li>手机网站</li>
+										<li>微信商城</li>
+							
+                                        </ul> 
+                                        <a href="#"  target="_blank" class="button_12 green green_borderbottom radius4">查看成果</a>  <a href="#" class="button_12 blue blue_borderbottom radius4">客户网站</a> 
+                                      </div>
+                                      <div class="client_row">                                  
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/clients.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>教育机构</h4>
+                                          <p>帮助高校完成学员报名信息管理系统</p>
+                                          </div>
+                                        </div>
+                                        <h3>案例分享:</h3>
+                                        <ul class="listing">
+                                        <li>武汉老年大学报名信息管理系统.</li>
+                                       
+                                        </ul>
+                                        <a href="#" class="button_12 green green_borderbottom radius4">查看成果</a>  <a href="#" class="button_12 blue blue_borderbottom radius4">客户网站</a>  
+                                      </div>
+                                      
+									   <div class="client_row">                                  
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/clients.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>购物商城</h4>
+                                          <p>红酒购物商城</p>
+                                          </div>
+                                        </div>
+                                        <h3>案例分享:</h3>
+                                        <ul class="listing">
+                                        <li>红酒购物商城.</li>
+                                       
+                                        </ul>
+                                        <a href="http://www.zhongguohongjiu.cn" class="button_12 green green_borderbottom radius4">查看成果</a>  <a href="http://www.zhongguohongjiu.cn" class="button_12 blue blue_borderbottom radius4">客户网站</a>  
+                                      </div>
+                                      
+                                        <div class="clearfix"></div>
+    					<div class="scrolltop radius20"><a href="#" class="scrolltop7"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar7"></div>
+     </div>
+     </div>
+<!--Page 8 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested8">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h3 class="page_title">最新微博</h3>
+                                        <div class="tweet">
+										<!--微博调用开始-->
+    <iframe width="100%" height="400" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2397606357&verifier=ded7228b&dpc=1"></iframe>
+	 <!--微博调用结束-->
+
+										</div>
+                                        <a href="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2397606357&verifier=ded7228b&dpc=1" class="button_11 blue">关注我</a>
+                                        <div class="clearfix"></div>
+										<div class="scrolltop radius20"><a href="#" class="scrolltop8"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar8"></div>
+     </div>
+     </div>
+<!--Page 9 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested9">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        
+                                        <h3 class="page_title">联系方式</h3>
+                                            
+											<h4>微信</h4>     
+                                          <div ><a href="#" class="scrolltop9"><img style="width:100px;height:100px" src="images/weixin.jpg"/></a></div>    
+                                          <h4>QQ</h4> 
+										  <a href="http://wpa.qq.com/msgrd?v=3&uin=913530978&site=qq&menu=yes" class="call_button radius8">913530978</a>
+																			  
+                                       
+                                      
+                                        <h4>电话</h4>    
+                                        <a href="tel:18164004815" class="call_button radius8">拨打18164004815</a>
+                                        
+                                        <div class="clearfix"></div>
+                                        <div class="scrolltop radius20"><a href="#" class="scrolltop9"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>    
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar9"></div>
+     </div>
+     </div>
+       
+     <!--End of pages--> 
+
+    </div>
+    <div class="pagination"></div>
+  </div>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/code.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<!--Twitter Feed-->
+<script type="text/javascript" src="js/twitter/jquery.tweet.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();  
+jQuery(function($){
+$(".tweet").tweet({
+  modpath: 'js/twitter/',
+  join_text: "auto",
+  username: "famousthemes",
+  count: 5,
+  auto_join_text_default: "we said,",
+  auto_join_text_ed: "we",
+  auto_join_text_ing: "we were",
+  auto_join_text_reply: "we replied",
+  auto_join_text_url: "we were checking out",
+  loading_text: "&nbsp;&nbsp;
+    "
+});
+});
+</script>
+
+
+ <script LANGUAGE="JavaScript">
+function click() { 
+if (event.button==2) 
+{result=confirm("跳转到PC版本？");
+ if(result==true)
+      {
+        window.location.href='http://www.ihjsc.com/aboutme';
+      }
+} 
+
+} 
+document.onmousedown=click ;
+</script>
+</body>
+</html>

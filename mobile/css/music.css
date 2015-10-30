@@ -1,0 +1,6 @@
+
+.mPower{position: fixed;top: 12px;right:50%;z-index: 100;}
+#on, #off{width: 30px;height: 30px;display: inline-block;margin-bottom: -3px;filter: alpha(opacity=0.8);opacity: 0.8;cursor: pointer;}
+#on:hover, #off:hover{filter: alpha(opacity=4);opacity: 1}
+#on{background: url("../images/on.png") left center no-repeat;}
+#off{background: url("../images/off.png") left center no-repeat;display: none;}

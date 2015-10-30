@@ -1,0 +1,6 @@
+
+
+#on, #off{width: 56px;height: 50px;display: inline-block;margin-bottom: -3px;filter: alpha(opacity=0.5);opacity: 0.5;cursor: pointer;}
+#on:hover, #off:hover{filter: alpha(opacity=4);opacity: 1}
+#on{background: url("../images/music.gif") left center no-repeat;background-position:0px 0px}
+#off{background: url("../images/music.gif") left center no-repeat;display: none;background-position:0px -50px}

@@ -1,0 +1,50 @@
+
+
+.container {
+	width: 100%;
+  height:100%;
+	top:50px;  
+  left:30%;        
+	position: relative;
+	margin: 0px auto;
+}
+
+.clipped-box {
+	cursor: pointer;
+	-webkit-transition: top 1.2s linear;
+	transition: top 1.2s linear;	
+}
+.clipped-box div {
+	z-index: 9999999;
+	color: ffc;
+  font-family : Î¢ÈíÑÅºÚ,ËÎÌå;
+	font-size:28px;
+	padding: 40px 10px ;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+.clipped-box div h1 {
+	text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+
+.clipped-box, .clipped-box div {
+	width: 65%;
+	height:400px;
+	position: relative;
+}
+
+.clipped-box div {
+	position: absolute;
+	top: auto;
+	left: 0;
+  background-color: #2183ef; 
+  filter:alpha(opacity:0.3); opacity:0.8;
+	-webkit-transition: -webkit-transform 1.4s ease-in, background 0.3s ease-in;
+	transition: transform 1.4s ease-in, background 0.3s ease-in;
+}
+
+
